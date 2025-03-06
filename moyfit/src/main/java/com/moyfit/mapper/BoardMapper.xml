@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.moyfit.mapper.BoardMapper">
+
+	<insert id="board_insert"
+		parameterType="com.moyfit.entity.Board">
+		insert into tb_board (b_title, b_content, b_file, b_category, m_id) values
+		(#{b_title}, #{b_content}, #{b_file}, #{b_category}, #{m_id})
+	</insert>
+
+	<select id="boardList" resultType="com.moyfit.entity.Board">
+		select * from tb_board order by created_at desc
+	</select>
+
+	<select id="id_select" parameterType="java.lang.Integer"
+		resultType="com.moyfit.entity.Board">
+		select * from tb_board where b_idx = #{b_idx}
+	</select>
+
+	<update id="board_update" parameterType="com.moyfit.entity.Board">
+		update tb_board set b_title = #{b_title}, b_content = #{b_content}, b_file = #{b_file}, b_category = #{b_category}, m_id = #{m_id} where b_idx = #{b_idx}
+	</update>
+
+	<delete id="board_delete">
+		delete from tb_board where b_idx = #{b_idx}
+	</delete>
+	
+	<update id="b_views_update">
+		update tb_board set b_views = b_views + 1 where b_idx = #{b_idx}
+	</update>
+	
+</mapper>

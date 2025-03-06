@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.moyfit.mapper.MemberMapper">
+
+	<insert id="memberInsert"
+		parameterType="com.moyfit.entity.Member">
+		insert into member values(#{m_id}, #{m_pw}, #{m_nn}, #{m_gender}, #{m_age},
+		#{m_address}, #{m_status})
+	</insert>
+
+
+</mapper>

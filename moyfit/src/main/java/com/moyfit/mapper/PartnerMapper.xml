@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.moyfit.mapper.PartnerMapper">
+
+	<select id="showPartner"
+		parameterType="com.moyfit.entity.Member"
+		resultType="com.moyfit.entity.Member">
+		select * from tb_member where m_id != #{m_id}
+	</select>
+
+	<select id="showSportPartner"
+		parameterType="com.moyfit.entity.Member"
+		resultType="com.moyfit.entity.Member">
+		select * from tb_member where m_sport = #{m_sport} and m_id != #{m_id}
+	</select>
+
+	<select id="showPartner_info"
+		parameterType="com.moyfit.entity.Member"
+		resultType="com.moyfit.entity.Member">
+		select * from tb_member where m_id = #{m_id}
+	</select>
+
+
+	<select id="selectAcceptedPartner" parameterType="String"
+		resultType="com.moyfit.entity.Partner">
+		SELECT *
+		FROM tb_partner
+		WHERE m_id = #{m_id} AND accept_yn ='Y'
+	</select>
+
+	    <!--  파트너 매칭 요청 저장 -->
+    <insert id="insertPartner" parameterType="map" useGeneratedKeys="true" keyProperty="partner_idx" keyColumn="partner_idx">
+        INSERT INTO tb_partner (m_id, partner_id)
+        VALUES (#{m_id}, #{partner_id})
+    </insert>
+    
+    <!-- 매칭 상태 확인 -->
+<select id="checkMatchingStatus" parameterType="string" resultType="com.moyfit.entity.Partner">
+    SELECT * FROM tb_partner WHERE m_id = #{m_id} OR partner_id = #{m_id} order by created_at DESC
+</select>
+
+
+    <!-- 파트너 요청 수락 시 상태 변경 -->
+<update id="acceptPartnerRequest">
+    UPDATE tb_partner
+    SET accept_yn = 'Y'
+    WHERE m_id = #{m_id} AND partner_id = #{partner_id} AND accept_yn = 'N';
+</update>
+
+
+
+
+</mapper>

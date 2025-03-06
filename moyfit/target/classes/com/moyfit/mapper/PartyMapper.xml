@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.moyfit.mapper.PartyMapper">
+
+	<select id="selectAcceptedParty" parameterType="String"
+		resultType="com.moyfit.entity.Match">
+		SELECT *
+		FROM tb_match
+		WHERE m_id = #{m_id} AND approve_yn ='Y'
+	</select>
+
+	<select id="showParty" parameterType="com.moyfit.entity.Member"
+		resultType="com.moyfit.entity.Party">
+		select * from tb_party
+	</select>
+
+	<select id="showSportParty" parameterType="map"
+		resultType="com.moyfit.entity.Party">
+		select * from tb_party where p_sport = #{p_sport}
+	</select>
+
+	<insert id="insertParty" parameterType="com.moyfit.entity.Party">
+		insert into tb_party
+		(m_id, p_name, p_addr, p_photo, p_lat, p_lon, p_info, p_limit,
+		p_sport)
+		values (#{m_id}, #{p_name}, #{p_addr}, #{p_photo}, #{p_lat},
+		#{p_lon}, #{p_info},
+		#{p_limit}, #{p_sport})
+	</insert>
+
+	<select id="party_info" parameterType="com.moyfit.entity.Party"
+		resultType="com.moyfit.entity.Party">
+		select * from tb_party where p_idx = #{p_idx}
+	</select>
+
+	<insert id="insertPartys" parameterType="map"
+		useGeneratedKeys="true" keyProperty="match_idx" keyColumn="match_idx">
+		INSERT INTO
+		tb_match (partner_id, m_id)
+		VALUES (#{partner_id}, #{m_id});
+	</insert>
+
+	<update id="acceptPartyRequest">
+		UPDATE tb_match
+		SET approve_yn = 'Y'
+		WHERE partner_id =
+		#{m_id} AND approve_yn = 'N';
+	</update>
+
+	<select id="pcheckMatchingStatus" parameterType="string"
+		resultType="com.moyfit.entity.Match">
+		SELECT * FROM tb_match WHERE m_id = #{partner_id} OR m_id =
+		#{m_id}
+	</select>
+
+	<select id="nameCheck" parameterType="String"
+		resultType="boolean">
+		select
+		count(*)
+		from tb_party
+		where p_name = #{p_name}
+	</select>
+
+
+
+</mapper>

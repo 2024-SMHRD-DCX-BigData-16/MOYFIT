@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+encoding//src/main/java/com/moyfit/controller/MatchController.java=UTF-8
+encoding//src/main/java/com/moyfit/controller/MessageController.java=UTF-8
+encoding//src/main/java/com/moyfit/controller/PartnerController.java=UTF-8
+encoding//src/main/java/com/moyfit/controller/PartyController.java=UTF-8
+encoding//src/main/java/com/moyfit/controller/RatingController.java=UTF-8
+encoding//src/main/java/com/moyfit/controller/RequestController.java=UTF-8
+encoding//src/main/java/com/moyfit/mapper/MessageMapper.java=UTF-8
+encoding//src/main/java/com/moyfit/mapper/PartnerMapper.java=UTF-8
+encoding//src/main/java/com/moyfit/mapper/RankMapper.java=UTF-8
+encoding//src/main/java/com/moyfit/mapper/RequestMapper.java=UTF-8
+encoding//src/main/webapp/WEB-INF/views/partner.jsp=UTF-8
+encoding//src/main/webapp/resources/css/Join.css=UTF-8

@@ -1,0 +1,104 @@
+/* 전체 여백 제거 */
+body {
+   font-family: 'Open Sans', sans-serif;
+   margin: 0;
+   padding: 0;
+   background-color: #f8f9fa;
+    margin-left: 20px; /* 왼쪽 여백 */
+    margin-right: 20px; /* 오른쪽 여백 */
+}
+
+
+/* 네비게이션 바 스타일 */
+#navbar-menu {
+   background-color: #eaeaea;
+   padding: 15px 0;   
+}
+
+
+/* 네비게이션 메뉴 정렬 및 간격 */
+.navbar-nav {
+   display:  flex;
+   justify-content: center;
+   align-items: center;
+   list-style: none;
+   padding: 10px 30px; /* 기존 10px 50px → 5px 30px으로 줄임 */
+   margin: 0;
+}
+
+/* 네비게이션 항목간 간격 줄이기 */
+.navbar-nav li {
+   margin: 0 20px; /* 기존 15px → 10px로 줄임 */
+}
+
+.navbar-nav a {
+   text-decoration: none;
+   font-size: 18px; /* 기존 16px → 14px로 줄임 */
+   font-weight: bold;
+   color: #333;
+   padding: 5px 10px; /* 기존 10px 15px → 5px 10px으로 줄임 */
+   transition: color 0.3s ease-in-out;
+}
+
+/* 로고 간격 조정 */
+.logo {
+   display: block;
+   text-align: center;
+   font-size: 60px; /* 기존 50px → 40px로 줄임 */
+   font-weight: bold;
+   color: #333;
+   text-decoration: none;
+   margin-bottom: 10px; /* 기존 20px → 10px로 줄임 */
+}
+
+header {
+  height: 80px;  
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-bottom: 100px; /* 헤더 아래 공백 추가 */
+}
+
+
+
+/* 로그인/회원가입 버튼 정렬 */
+.header-buttons {
+   position: absolute;
+   top: 10px; /* 기존 20px → 10px로 줄임 */
+   right: 10px; /* 기존 20px → 10px로 줄임 */
+   display: flex;
+   gap: 5px; /* 기존 10px → 5px로 줄임 */
+   z-index: 1000;
+}
+
+/* 버튼 크기 줄이기 */
+.header-btn {
+   padding: 6px 12px; /* 기존 10px 20px → 6px 12px으로 줄임 */
+   border-radius: 5px;
+   font-size: 16px; /* 기존 14px → 12px로 줄임 */
+   font-weight: bold;
+   text-decoration: none;
+   transition: all 0.3s ease;
+   cursor: pointer;
+}
+
+
+
+.login-btn, .join-btn, .profile-btn, .logout-btn {
+   color: white;
+}
+
+.login-btn { background-color: #007bff; }
+.join-btn { background-color: #28a745; }
+.profile-btn { background-color: #007bff; }
+.logout-btn { background-color: #dc3545; }
+
+.header-btn:hover {
+   opacity: 0.9;
+   transform: translateY(-2px);
+}
+
+.container, .content-section {
+   padding-top: 50px; /* 헤더 높이보다 조금 더 크게 설정 */
+}
+
+

@@ -1,0 +1,139 @@
+
+        /* 전체 페이지 스타일 */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* 컨테이너 정렬 */
+        .detail-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px 0;
+        }
+
+        /* 게시글 카드 */
+        .post-card {
+            position: relative;
+            background: white;
+            width: 650px;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        /* 좋아요 버튼 */
+        .like-container {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            font-size: 26px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        #like-heart {
+            font-size: 34px;
+            transition: 0.3s;
+        }
+
+        /* 제목 */
+        .post-title {
+            font-size: 26px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        /* 게시글 정보 */
+        .post-info {
+            display: flex;
+            justify-content: space-between;
+            font-size: 15px;
+            color: #666;
+            margin-bottom: 25px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        /* 게시글 내용 (여백 증가) */
+        .post-content {
+            text-align: left;
+            margin: 30px 0;
+            font-size: 18px;
+            line-height: 2;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+        }
+
+        /* 이미지 컨테이너 */
+        .image-container {
+            margin-top: 15px;
+            margin-bottom: 25px;
+        }
+
+        .image-container img {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 12px;
+        }
+
+        /* 버튼 컨테이너 */
+        .button-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 30px;
+        }
+
+        /* 목록 버튼: 왼쪽 하단 */
+        .btn-back {
+            background-color: #6c757d;
+            padding: 12px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            transition: 0.3s;
+            font-size: 15px;
+            border: none;
+            cursor: pointer;
+        }
+
+        /* 수정/삭제 버튼 그룹: 하단 오른쪽 */
+        .edit-delete-group {
+            display: flex;
+            gap: 15px;
+        }
+
+        .btn, input[type="submit"] {
+            display: inline-block;
+            padding: 12px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            transition: 0.3s;
+            font-size: 15px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn-edit {
+            background-color: #ffc107;
+        }
+
+        .btn-delete {
+            background-color: #dc3545;
+        }
+
+        .btn:hover, input[type="submit"]:hover {
+            opacity: 0.85;
+        }
+    

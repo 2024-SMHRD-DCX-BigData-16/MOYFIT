@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+ "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.moyfit.mapper.PartnerRatingMapper">
+
+	<insert id="insertRating"
+		parameterType="com.moyfit.entity.PartnerRating">
+		INSERT INTO tb_partner_rating (m_id, partner_id,
+		partner_rating, created_at)
+		VALUES (#{m_id}, #{partner_id},
+		#{partner_rating}, #{createdAt})
+	</insert>
+
+	<select id="getAllPartnerRankings"
+		resultType="com.moyfit.entity.PartnerRating">
+		SELECT partner_id, COALESCE(AVG(partner_rating), 0) AS
+		avg_partner
+		FROM tb_partner_rating
+		GROUP BY partner_id
+	</select>
+
+	<select id="PartnersRating"
+		resultType="com.moyfit.entity.PartnerRating">
+		SELECT m_id, AVG(partner_rating) AS partner_rating
+		FROM tb_partner_rating
+		GROUP BY m_id;
+	</select>
+
+</mapper>

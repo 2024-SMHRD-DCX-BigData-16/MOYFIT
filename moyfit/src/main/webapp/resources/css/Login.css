@@ -1,0 +1,114 @@
+  
+                /* 유저 옵션 */
+                .user-option {
+                    position: absolute;
+                    top: 10px;
+                    right: 20px;
+                    display: flex;
+                    align-items: center;
+                    gap: 15px;
+                }
+
+                .user-option a {
+                    text-decoration: none;
+                    font-size: 16px;
+                    font-weight: bold;
+                    color: #333;
+                }
+
+                .user-option a:hover {
+                    color: #007bff;
+                }
+                
+
+                
+
+                
+
+                /* 로그인 메뉴 */
+                #menu {
+                    text-align: center;
+                    margin-top: 150px;
+                }
+
+                #menu form {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 15px;
+                    max-width: 400px;
+                    margin: 0 auto;
+                    padding: 30px;
+                    border-radius: 10px;
+                    background-color: #fff;
+                    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+                    border: 2px solid #e9ecef;
+                }
+
+                #menu h5 {
+                    color: #007bff;
+                    font-size: 24px;
+                    margin-bottom: 25px;
+                    padding-bottom: 15px;
+                    border-bottom: 2px solid #007bff;
+                    width: 100%;
+                    text-align: center;
+                }
+
+                #menu input[type="id"],
+                #menu input[type="password"] {
+                    width: 100%;
+                    padding: 12px;
+                    border: 1px solid #ced4da;
+                    border-radius: 5px;
+                    font-size: 16px;
+                    transition: border-color 0.3s ease;
+                }
+
+                #menu input[type="id"]:focus,
+                #menu input[type="password"]:focus {
+                    border-color: #007bff;
+                    outline: none;
+                }
+
+                /* 버튼 그룹 */
+                .button-group {
+                    display: flex;
+                    gap: 10px;
+                    width: 100%;
+                }
+
+                .button-group input[type="submit"],
+                .button-group a {
+                    flex: 1;
+                    text-align: center;
+                    font-size: 18px;
+                    font-weight: bold;
+                    padding: 10px;
+                    border: none;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    transition: background 0.3s;
+                    color: white;
+                    text-decoration: none;
+                }
+
+                /* 로그인 버튼 */
+                .button-group input[type="submit"] {
+                    background-color: #007bff;
+                }
+
+                .button-group input[type="submit"]:hover {
+                    background-color: #0056b3;
+                }
+
+                /* 회원가입 버튼 */
+                .button-group a {
+                    background-color: #28a745;
+                }
+
+                .button-group a:hover {
+                    background-color: #218838;
+                }
+
+					

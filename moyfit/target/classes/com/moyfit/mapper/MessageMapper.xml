@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.moyfit.mapper.MessageMapper">
+
+    <!-- 받은 알림 조회 -->
+    <select id="selectMessageReceive" parameterType="string" resultType="com.moyfit.entity.Message">
+        SELECT * FROM tb_message
+        WHERE receiver_id = #{receiver_id} 
+        ORDER BY sended_at DESC;
+    </select>
+
+    <!-- 내가 보낸 알림 조회 -->
+    <select id="selectSentMessages" parameterType="string" resultType="com.moyfit.entity.Message">
+        SELECT * FROM tb_message
+        WHERE m_id = #{m_id}
+        ORDER BY sended_at DESC;
+    </select>
+
+    <!-- 메시지 읽음 처리 -->
+    <update id="updateMessageRead" parameterType="int">
+        UPDATE tb_message
+        SET receive_yn = 'Y'
+        WHERE msg_idx = #{msg_idx};
+    </update>
+
+    <!-- 특정 메시지 상세 조회 -->
+    <select id="selectMessageById" parameterType="int" resultType="com.moyfit.entity.Message">
+        SELECT * FROM tb_message WHERE msg_idx = #{msg_idx};
+    </select>
+
+    <!-- 특정 메시지 삭제 -->
+    <delete id="deleteMessageById" parameterType="int">
+        DELETE FROM tb_message WHERE msg_idx = #{msg_idx};
+    </delete>
+
+    <!-- 특정 사용자의 모든 메시지 삭제 -->
+    <delete id="deleteAllMessagesByUser" parameterType="string">
+        DELETE FROM tb_message WHERE receiver_id = #{receiver_id};
+    </delete>
+
+    <!-- 읽지 않은 메시지 개수 조회 -->
+    <select id="countUnreadMessages" parameterType="string" resultType="int">
+        SELECT COUNT(*)
+        FROM tb_message
+        WHERE receiver_id = #{receiver_id} AND receive_yn = 'N';
+    </select>
+
+    <!-- 모든 메시지 읽음 처리 -->
+    <update id="updateAllMessagesRead" parameterType="string">
+        UPDATE tb_message
+        SET receive_yn = 'Y'
+        WHERE receiver_id = #{receiver_id} AND receive_yn = 'N';
+    </update>
+
+    <!-- 메시지 전송 -->
+    <insert id="insertMessage" parameterType="com.moyfit.entity.Message">
+        INSERT INTO tb_message (m_id, receiver_id, msg_content)
+        VALUES (#{m_id}, #{receiver_id}, #{msg_content});
+    </insert>
+
+</mapper>

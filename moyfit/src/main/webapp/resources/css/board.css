@@ -1,0 +1,51 @@
+ /* 기본 레이아웃(전체적인 문의) */
+               .community-container {
+                  max-width: 1200px;
+                  margin: 0 auto;
+                  padding: 20px;
+               }
+
+               /* 게시판 스타일(문의) */
+               .board-header {
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  margin-bottom: 20px;
+               }
+
+               .write-btn {
+                  padding: 10px 20px;
+                  background-color: #007bff;
+                  color: white;
+                  border: none;
+                  border-radius: 5px;
+                  cursor: pointer;
+                  text-decoration: none;
+               }
+
+               .board-table {
+                  width: 100%;
+                  border-collapse: collapse;
+                  margin-top: 20px;
+               }
+
+               .board-table tr:hover {
+                  background-color: #f8f9fa;
+                 
+                  
+               }
+			
+ 				.board-table th {
+                  background-color: #f8f9fa;
+                  padding: 12px;
+                  border-top: 2px solid #dee2e6;
+                  border-bottom: 2px solid #dee2e6;
+                  text-align: left;
+                  font-size:20px;
+               }
+
+               .board-table td {
+                 font-size:18px;
+                  padding: 12px;
+                  border-bottom: 1px solid #dee2e6;
+               }

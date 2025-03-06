@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.moyfit.mapper.RankMapper">
+
+
+	<select id="selectPartyName"
+		resultType="com.moyfit.entity.Party">
+		SELECT p.p_name, p.p_idx
+		FROM tb_party AS p
+		INNER JOIN tb_party_rating
+		AS pr ON p.p_idx = pr.p_idx;
+	</select>
+	
+	<select id="getAllRankings" resultType="com.moyfit.entity.Rank">
+		SELECT p_id, AVG(p_rating) AS p_rating
+		FROM (
+		SELECT p_idx AS p_id, p_rating FROM tb_party_rating
+		UNION ALL
+		SELECT m_id AS p_id, partner_rating FROM tb_partner_rating
+		) AS combined
+		GROUP BY p_id
+		ORDER BY p_rating DESC;
+	</select>
+
+	<select id="gatherRankings" resultType="com.moyfit.entity.Rank">
+		SELECT p_idx AS p_id, AVG(p_rating) AS p_rating
+		FROM tb_party_rating
+		GROUP BY p_idx
+		ORDER BY p_rating DESC;
+	</select>
+
+	<select id="partnerRankings" resultType="com.moyfit.entity.Rank">
+		SELECT m_id AS p_id, AVG(partner_rating) AS p_rating
+		FROM tb_partner_rating
+		GROUP BY m_id
+		ORDER BY p_rating DESC;
+	</select>
+
+
+</mapper>

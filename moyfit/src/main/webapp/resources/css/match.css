@@ -1,0 +1,90 @@
+/* 전체 레이아웃 정리 */
+.main-content {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* 제목 스타일 */
+h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* 매칭 카드 */
+.match-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+    text-align: left;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.match-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* 승인 상태 스타일 */
+.match-card p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+/* 승인 상태 아이콘 */
+.accept-status {
+    font-weight: bold;
+}
+
+.accept-status.yes {
+    color: #28a745; /* 초록색 */
+}
+
+.accept-status.no {
+    color: #dc3545; /* 빨간색 */
+}
+
+/* 버튼 스타일 */
+.accept-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.2s;
+}
+
+.accept-btn:hover {
+    background-color: #218838;
+}
+
+.no-matches {
+    font-size: 18px;
+    color: #777;
+    margin-top: 20px;
+}
+
+.message-box {
+    background-color: #dff0d8;
+    color: #3c763d;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #d6e9c6;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.approved-message {
+    color: #3c763d;
+    font-weight: bold;
+}

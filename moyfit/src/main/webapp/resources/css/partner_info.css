@@ -1,0 +1,140 @@
+/* ï¿½ï¿½Ã¼ ï¿½ï¿½Å¸ï¿½ï¿½ */
+body {
+	font-family: 'Arial', sans-serif;
+	background-color: #f8f9fa;
+	margin: 0;
+	padding: 0;
+	min-height: 100vh;
+}
+
+#wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.main-content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex: 1;
+	padding: 20px;
+	margin-top: 80px;
+	margin: auto;
+}
+
+.profile-container {
+	width: 400px;
+	padding: 30px;
+	background: white;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+	text-align: center;
+}
+
+.profile-header {
+	display: flex;
+	justify-content: space-between;
+	font-size: 16px;
+	color: #555;
+	font-weight: bold;
+	padding: 10px;
+}
+
+.profile-img {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	object-fit: cover;
+	margin: 10px auto;
+	display: block;
+	border: 2px solid #007bff;
+}
+
+.profile-info {
+	font-size: 18px;
+	color: #333;
+	margin: 8px 0;
+	font-weight: bold;
+}
+
+.bio {
+	font-size: 14px;
+	color: #666;
+	padding: 10px;
+	background: #f8f9fa;
+	border-radius: 5px;
+	margin: 10px 0;
+}
+
+.button-container {
+	display: flex;
+	justify-content: center;
+	gap: 15px;
+	margin-top: 15px;
+}
+
+.btn {
+	padding: 10px 15px;
+	border-radius: 5px;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: background 0.3s ease;
+	border: none;
+	color: white;
+}
+
+.chat-btn {
+	background-color: #007bff;
+}
+
+.chat-btn:hover {
+	background-color: #0056b3;
+}
+
+.offer-btn {
+	background-color: #28a745;
+}
+
+.offer-btn:hover {
+	background-color: #1e7e34;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* ¹öÆ° °£°Ý */
+    margin-bottom: 20px; /* ¾Æ·¡ÂÊ ¿©¹é Ãß°¡ */
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* ¹öÆ° °£°Ý */
+    margin-bottom: 20px; /* Æû°ú µÚ·Î°¡±â ¹öÆ° °£ÀÇ °£°Ý Ãß°¡ */
+}
+
+.back-button-container {
+    margin-top: 10px; /* Æû°úÀÇ °£°Ý Á¶Á¤ */
+    width: 100%;
+    text-align: center;
+}
+
+.back-btn {
+    background-color: #ddd;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 150px;
+}
+
+.back-btn:hover {
+    background-color: #ccc;
+}

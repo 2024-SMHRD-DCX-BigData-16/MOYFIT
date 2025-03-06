@@ -1,0 +1,51 @@
+/* Why Section - 위쪽 여백 추가 */
+.why_section {
+    width: 100%;
+    padding: 60px 0 40px 0; /* 기존 40px → 위쪽을 60px로 증가 */
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px; 
+}
+
+
+/* 카드 컨테이너 (가로 나열) */
+.card-container {
+    display: flex;
+    flex-wrap: nowrap; /* 줄바꿈 방지 */
+    gap: 20px; /* 카드 간격 조정 */
+    padding: 20px;
+    justify-content: center; /* 카드들을 중앙 정렬 */
+     margin-top: 100px;
+}
+
+/* 개별 카드 */
+.box {
+    flex: 0 0 280px; /* 카드 너비 고정 */
+    background: #f8f9fa;
+    border-radius: 15px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* 이미지 박스 */
+.img-box {
+    margin-bottom: 15px;
+}
+
+.img-box img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* 카드 내 텍스트 스타일 */
+.detail-box h5 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.detail-box p {
+    font-size: 14px;
+    color: #666;
+}

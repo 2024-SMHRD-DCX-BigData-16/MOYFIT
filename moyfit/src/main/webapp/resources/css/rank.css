@@ -1,0 +1,130 @@
+/* 전체 스타일 */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #f8f9fa, #e3f2fd);
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* 랭킹 컨테이너 */
+.ranking-container {
+    max-width: 700px;
+    margin: 80px auto;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+.ranking-container:hover {
+    transform: scale(1.02);
+}
+
+/* 헤더 디자인 */
+.ranking-header {
+    background:#5882FA;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+.ranking-header h2 {
+    margin: 0;
+    font-size: 2.5em;
+    letter-spacing: 1px;
+}
+
+/* 랭킹 카테고리 버튼 */
+.rank-container {
+    background: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #eee;
+}
+.rank-container a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 25px;
+    margin: 0 8px;
+    border-radius: 25px;
+    font-size: 1.1em;
+    font-weight: bold;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+.rank-container a:hover {
+    background: linear-gradient(135deg, #0056b3, #004494);
+    transform: translateY(-3px);
+}
+
+/* 랭킹 리스트 */
+.ranking-list {
+    padding: 20px;
+}
+.ranking-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 18px;
+    margin-bottom: 15px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.05);
+}
+.ranking-item:hover {
+    transform: scale(1.03);
+    box-shadow: 4px 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* 사용자 정보 */
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+/* 랭킹 순위 아이콘 */
+.rank-number {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: black;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 15px;
+}
+.rank-number.first {
+    background: radial-gradient(circle, #FFD700, #FFB800);
+}
+.rank-number.second {
+    background: radial-gradient(circle, #C0C0C0, #A8A8A8);
+}
+.rank-number.third {
+    background: radial-gradient(circle, #CD7F32, #B87333);
+}
+.rank-number.default {
+    background: #6c757d;
+}
+
+/* 사용자 이름 */
+.user-name {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #333;
+}
+
+/* 평점 */
+.rating {
+    background:#5882FA;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 30px;
+    font-size: 1.1em;
+    font-weight: bold;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+}

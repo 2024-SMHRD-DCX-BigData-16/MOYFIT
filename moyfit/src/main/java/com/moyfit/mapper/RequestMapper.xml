@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.moyfit.mapper.RequestMapper">
+
+
+
+    <!--  매칭 수락 상태 업데이트 -->
+    <update id="updatePartnerStatus" parameterType="map">
+        UPDATE tb_partner
+        SET accept_yn = 'Y'
+        WHERE partner_idx = #{partner_idx};
+    </update>
+    
+    <!-- ✅ 내가 보낸 매칭 요청 -->
+    <select id="selectSentPartnerRequests" parameterType="String" resultType="com.moyfit.entity.Partner">
+        SELECT partner_idx, m_id, partner_id, accept_yn, created_at 
+        FROM tb_partner 
+        WHERE m_id = #{m_id} 
+        ORDER BY created_at DESC;
+    </select>
+    
+    <!-- ✅ 내가 받은 매칭 요청 -->
+    <select id="selectReceivedPartnerRequests" parameterType="String" resultType="com.moyfit.entity.Partner">
+        SELECT partner_idx, m_id, partner_id, accept_yn, created_at 
+        FROM tb_partner 
+        WHERE partner_id = #{partner_id} 
+        ORDER BY created_at DESC;
+    </select>
+
+</mapper>

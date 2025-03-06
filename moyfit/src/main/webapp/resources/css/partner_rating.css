@@ -1,0 +1,18 @@
+
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background-color: #f5f6f7; font-family: 'Apple SD Gothic Neo', '¸¼Àº °íµñ', sans-serif; }
+    .container { max-width: 600px; margin: 50px auto; padding: 30px; background-color: #fff; border-radius: 10px; box-shadow: 0 0 20px rgba(0,0,0,0.1); text-align: center; }
+    h2 { color: #333; font-size: 28px; margin-bottom: 20px; }
+    .rating-section { background-color: #f8f9fa; padding: 30px; border-radius: 8px; margin-top: 30px; }
+    .rating-section h3 { color: #444; margin-bottom: 20px; font-size: 22px; }
+    .stars { font-size: 40px; color: #ffd700; cursor: pointer; margin: 20px 0; }
+    .stars i { margin: 0 10px; transition: transform 0.2s ease; }
+    .stars i:hover { transform: scale(1.2); }
+    .form-group { margin: 15px 0; }
+    .form-group label { font-size: 16px; color: #333; margin-right: 10px; }
+    .form-group input[type="text"] { padding: 8px 10px; font-size: 16px; border: 1px solid #ccc; border-radius: 4px; width: 200px; }
+    #submitRating { padding: 12px 30px; background-color: black; color: white; border: none; border-radius: 25px; cursor: pointer; font-size: 16px; transition: all 0.3s ease; box-shadow: 0 2px 5px rgba(0,0,0,0.2); }
+    #submitRating:hover { background-color: black; transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.2); }
+
+ 

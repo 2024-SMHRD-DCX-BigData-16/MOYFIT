@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.moyfit.mapper.MatchMapper">
+
+
+
+    <update id="acceptPartyRequest">
+        UPDATE tb_match
+        SET approve_yn = 'Y'
+        WHERE m_id = #{m_id} AND partner_id = #{partner_id} AND approve_yn = 'N';
+    </update>
+
+    <select id="pcheckMatchingStatus" parameterType="string" resultType="com.moyfit.entity.Match">
+        SELECT * FROM tb_match WHERE partner_id = #{m_id} OR m_id = #{m_id} order by created_at DESC
+    </select>
+
+
+
+</mapper>

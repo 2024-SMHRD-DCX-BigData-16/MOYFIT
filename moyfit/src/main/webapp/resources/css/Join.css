@@ -1,0 +1,169 @@
+/* 회  타  */
+#menu {
+	text-align: center;
+	margin-top: 50px;
+	padding: 30px 0;
+}
+
+.join-form {
+	width: 600px;
+	margin: 0 auto;
+	padding: 60px;
+	background-color: #fff;
+	border-radius: 15px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+/*  犬 타 煞 */
+.form-section {
+	border: 2px solid #e0e0e0;
+	border-radius: 12px;
+	padding: 35px;
+	margin-bottom: 40px;
+	background-color: #ffffff;
+}
+
+/*   타  */
+.form-section h5 {
+	text-align: left;
+	color: #007bff;
+	font-size: 20px;
+	margin-top: 0;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #007bff;
+}
+
+.join-form h5 {
+	font-size: 24px;
+	margin-bottom: 30px;
+	color: #333;
+	text-align: center;
+	font-weight: bold;
+}
+
+/* �엯�젰 �븘�뱶 �뒪���씪 媛쒖꽑 */
+.form-group {
+	margin-bottom: 25px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"],
+.form-group textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	font-size: 16px;
+}
+
+/* �씪踰� �뒪���씪 媛쒖꽑 */
+.form-group label {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #333;
+	text-align: left;
+	padding-left: 5px;
+}
+
+/* 泥댄겕諛뺤뒪�� �씪�뵒�삤 踰꾪듉 洹몃９ �뒪���씪 */
+.checkbox-group,
+.radio-group {
+	display: flex;
+	gap: 20px;
+	justify-content: center;
+	margin-top: 15px;
+}
+
+.checkbox-group label,
+.radio-group label {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	font-size: 15px;
+	text-align: left;
+}
+
+/* 二쇱냼 �엯�젰 洹몃９ �뒪���씪 */
+.address-input-group {
+	display: flex;
+	gap: 10px;
+	margin-bottom: 10px;
+}
+
+.address-search-btn {
+	padding: 8px 15px;
+	background-color: #007bff;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+/* 踰꾪듉 �뒪���씪 媛쒖꽑 */
+.submit-btn {
+	width: 100%;
+	max-width: 400px;
+	padding: 15px;
+	font-size: 18px;
+	background-color: #007bff;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+	background-color: #0056b3;
+}
+
+.button-group {
+	display: flex;
+	justify-content: center;
+	gap: 37px;
+	margin-top: 45px;
+}
+
+.btn-action {
+	padding: 12px 30px;
+	font-size: 16px;
+	border-radius: 5px;
+}
+
+.delete-btn {
+	background-color: #dc3545;
+}
+
+.delete-btn:hover {
+	background-color: #c82333;
+}
+
+/* ID 以묐났泥댄겕 踰꾪듉 �뒪���씪 */
+.id-check-btn,
+.check-btn {
+	padding: 8px 20px;
+	background-color: #007bff;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+/* 諍�     크  */
+.form-group select {
+	width: 100%;
+	padding: 8px;
+	font-size: 13px;
+	height: 35px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+}
+
+.form-group select option {
+	font-size: 13px;
+	padding: 4px;
+}
