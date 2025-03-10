@@ -113,6 +113,15 @@ MOYFIT은 **카카오 API**를 활용한 거리 기반 매칭 시스템을 통�
 ## 홈페이지 소개
 
 <img src="https://github.com/user-attachments/assets/73fedfd8-8797-499d-a941-274988f7a904" width="1000" style="max-width:100%">
+<img src="https://github.com/user-attachments/assets/97aba364-8527-4276-ba37-e63871f041da" width="1000" style="max-width:100%">
+<img src="https://github.com/user-attachments/assets/8f5ad128-94fb-434a-90e8-8f79f5caf09d" width="1000" style="max-width:100%">
+<img src="https://github.com/user-attachments/assets/308ca79b-b153-40e5-ba08-429671abeedf" width="1000" style="max-width:100%">
+<img src="https://github.com/user-attachments/assets/40a29317-4a2e-43c8-9370-97b8408459af" width="1000" style="max-width:100%">
+<img src="https://github.com/user-attachments/assets/89c65159-bc23-4a0c-8333-db88c8615797" width="1000" style="max-width:100%">
+<img src="https://github.com/user-attachments/assets/97aba364-8527-4276-ba37-e63871f041da" width="1000" style="max-width:100%">
+<img src="https://github.com/user-attachments/assets/6e839f9b-b5f3-4e1e-8b8f-e9f173f2a06a" width="1000" style="max-width:100%">
+<img src="https://github.com/user-attachments/assets/e354f5c9-751f-4ef1-b5fd-50bc71479510" width="1000" style="max-width:100%">
+<img src="https://github.com/user-attachments/assets/21bd5598-aaec-413e-8b4b-361dc6149fa2" width="1000" style="max-width:100%">
 
 
 ## 🎥 시연 영상
