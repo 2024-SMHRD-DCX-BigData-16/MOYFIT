@@ -19,25 +19,30 @@ MOYFIT은 **카카오 API**를 활용한 거리 기반 매칭 시스템을 통�
 
 
 ---
+
 ## 🗓️ 개발 기간 및 인원
 - ⏳ **개발 기간**: 25.2.14 ~ 25.3.5 (3주)
 - 👨‍💻 **개발 인원**: 3명
 
 ---
+
 ## ⚙️ 개발 환경
 - **언어/프레임워크**: Java, Python, SQL / Spring, MyBatis
 - **DB/API**: MySQL / Kakao Maps API
 - **도구**: VS Code, STS, Git, Notion, Apache Tomcat
 
 ---
+
 ## ER 다이어그램
 <img src="https://github.com/user-attachments/assets/141baa7d-e93f-410f-ab4f-e23c1d29e9d8" width="700" style="max-width:100%">
 
 ---
+
 ## 유스케이스 다이어그램
 <img src="https://github.com/user-attachments/assets/d56c440f-1bbd-475b-9d6a-7d0e18b65f29" width="700" style="max-width:100%">
 
 ---
+
 ## 시스템 아키텍처
 <img src="https://github.com/user-attachments/assets/e4b06d45-8300-48bb-8f84-a05da55f3531" width="700" style="max-width:100%">
 
@@ -66,6 +71,7 @@ MOYFIT은 **카카오 API**를 활용한 거리 기반 매칭 시스템을 통�
 - 1:1 메신저 기능 제공
 
 ---
+
 ## 👥 팀원 역할 분담
 
 ### 🔹 팀장 | 문선웅
@@ -87,6 +93,7 @@ MOYFIT은 **카카오 API**를 활용한 거리 기반 매칭 시스템을 통�
 - 사진 업로드 및 출력 로직 개선
 
 ---
+
 ## 🚀 트러블 슈팅
 
 ### 🔹 1. 거리 계산 이슈
@@ -102,9 +109,11 @@ MOYFIT은 **카카오 API**를 활용한 거리 기반 매칭 시스템을 통�
 - **해결**: 공통 레이아웃과 파트별 스타일을 분리하여 유지보수가 쉬운 구조로 개선 → 코드 간결화 & 효율적인 개발 환경 조성
 
 ---
+
 ## 🎥 시연 영상
 <video src="https://github.com/user-attachments/assets/6fadef2b-94c4-47c6-9ae2-c67e2dc4ec34">
 
 ---
+
 ## 📎 GitHub Repository
-🔗 **[MOYFIT 프로젝트 저장소](https://github.com/2024-SMHRD-DCX-BigData-16/MOYFIT.git)**
+🔗 **[MOYFIT 프로젝트 저장소]()**
