@@ -108,7 +108,7 @@ MOYFIT은 **카카오 API**를 활용한 거리 기반 매칭 시스템을 통�
 ---
 
 ## 🎥 시연 영상
-📌 _(추후 추가 예정)_
+<video src="https://github.com/user-attachments/assets/6fadef2b-94c4-47c6-9ae2-c67e2dc4ec34">
 
 ---
 
