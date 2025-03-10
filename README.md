@@ -16,7 +16,7 @@ MOYFIT은 **카카오 API**를 활용한 거리 기반 매칭 시스템을 통�
 > 함께 성장하는 운동 커뮤니티를 만드는 것이 목표입니다. 🏆
 > 
 
-<img src="https://github.com/user-attachments/assets/a4d262c1-9c51-45c2-9e9e-e97ab956a9e0" width="400px">
+<img src="https://github.com/user-attachments/assets/a4d262c1-9c51-45c2-9e9e-e97ab956a9e0" width="300px">
 
 ---
 
