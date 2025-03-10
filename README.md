@@ -1,7 +1,7 @@
   # 🚀 MOYFIT - 거리 기반 운동 파트너 매칭
 
 ## 📌 프로젝트 소개
-<img src="https://github.com/user-attachments/assets/a4d262c1-9c51-45c2-9e9e-e97ab956a9e0" width="400">
+<img src="https://github.com/user-attachments/assets/a4d262c1-9c51-45c2-9e9e-e97ab956a9e0" width="700px" style="max-width:100%">
 
 MOYFIT은 **카카오 API**를 활용한 거리 기반 매칭 시스템을 통해, 가장 가까운 **운동 파트너 및 모임**을 추천하는 서비스입니다.
 
@@ -33,15 +33,15 @@ MOYFIT은 **카카오 API**를 활용한 거리 기반 매칭 시스템을 통�
 
 ---
 ## ER 다이어그램
-<img src="https://github.com/user-attachments/assets/141baa7d-e93f-410f-ab4f-e23c1d29e9d8" width="400">
+<img src="https://github.com/user-attachments/assets/141baa7d-e93f-410f-ab4f-e23c1d29e9d8" width="700" style="max-width:100%">
 
 ---
 ## 유스케이스 다이어그램
-<img src="https://github.com/user-attachments/assets/d56c440f-1bbd-475b-9d6a-7d0e18b65f29" width="400">
+<img src="https://github.com/user-attachments/assets/d56c440f-1bbd-475b-9d6a-7d0e18b65f29" width="700" style="max-width:100%">
 
 ---
 ## 시스템 아키텍처
-<img src="https://github.com/user-attachments/assets/e4b06d45-8300-48bb-8f84-a05da55f3531" width="400">
+<img src="https://github.com/user-attachments/assets/e4b06d45-8300-48bb-8f84-a05da55f3531" width="700" style="max-width:100%">
 
 
 ## 🏆 주요 기능
