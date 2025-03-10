@@ -4,7 +4,7 @@
 
 MOYFIT은 **카카오 API**를 활용한 거리 기반 매칭 시스템을 통해, 가장 가까운 **운동 파트너 및 모임**을 추천하는 서비스입니다.
 
-| ![MOYFIT 이미지](https://github.com/user-attachments/assets/a4d262c1-9c51-45c2-9e9e-e97ab956a9e0) |
+| <img src="https://github.com/user-attachments/assets/a4d262c1-9c51-45c2-9e9e-e97ab956a9e0" width="300"> |
 - 운동 유형 및 목표를 설정하면, **비슷한 목표를 가진 사용자와 자동 매칭**
 - 프로필에서 **지역을 설정하면 거리 기반 운동 파트너 추천**
 - **매칭 요청 & 수락 시스템**을 통해 원하는 파트너와 연결
