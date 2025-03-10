@@ -32,6 +32,17 @@ MOYFIT은 **카카오 API**를 활용한 거리 기반 매칭 시스템을 통�
 - **도구**: VS Code, STS, Git, Notion, Apache Tomcat
 
 ---
+## ER 다이어그램
+<img src="https://github.com/user-attachments/assets/141baa7d-e93f-410f-ab4f-e23c1d29e9d8" width="400">
+
+---
+## 유스케이스 다이어그램
+<img src="https://github.com/user-attachments/assets/d56c440f-1bbd-475b-9d6a-7d0e18b65f29" width="400">
+
+---
+## 시스템 아키텍처
+<img src="https://github.com/user-attachments/assets/e4b06d45-8300-48bb-8f84-a05da55f3531" width="400">
+
 
 ## 🏆 주요 기능
 
@@ -42,7 +53,6 @@ MOYFIT은 **카카오 API**를 활용한 거리 기반 매칭 시스템을 통�
 
 ### 📌 매칭 시스템
 - 거리 기반 운동 파트너 & 모임 매칭
-<img src="https://github.com/user-attachments/assets/c1b6e5a4-f4be-4cee-9dee-8caeb2ea4ddd" width="">
 
 ### 📌 알림 시스템
 - 매칭 요청 & 수락 여부 실시간 알림
