@@ -116,9 +116,18 @@ MOYFIT은 **카카오 API**를 활용한 거리 기반 매칭 시스템을 통�
 
 ---
 
-## 🌟 파트너 상세 페이지
+## 🌟 파트너 페이지 및 상세 페이지
 
-파트너별 **랭킹 & 평점 시스템**을 제공하여 활동 내역과 신뢰도를 한눈에 확인할 수 있습니다.
+
+<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+  <img src="https://github.com/user-attachments/assets/8f5ad128-94fb-434a-90e8-8f79f5caf09d" width="300">
+  <img src="https://github.com/user-attachments/assets/40a29317-4a2e-43c8-9370-97b8408459af" width="300">
+  <img src="https://github.com/user-attachments/assets/89c65159-bc23-4a0c-8333-db88c8615797" width="300">
+</div>
+
+---
+
+## 🌟 파트너 페이지 및 상세 페이지
 
 <div align="center">
   <h3>🏆 랭킹 & 평점 시스템</h3>
@@ -134,23 +143,17 @@ MOYFIT은 **카카오 API**를 활용한 거리 기반 매칭 시스템을 통�
 
 ## 🌟 파트너 매칭 페이지 UI
 
-운동 파트너 검색 및 매칭 기능을 직관적으로 확인할 수 있습니다.
-
 ![Matching Page](https://github.com/user-attachments/assets/308ca79b-b153-40e5-ba08-429671abeedf)
 
 ---
 
 ## 🌟 매칭 요청 & 수락 UI
 
-파트너에게 매칭을 요청하고, 수락 여부를 실시간으로 확인할 수 있습니다.
-
 ![Matching Request](https://github.com/user-attachments/assets/e354f5c9-751f-4ef1-b5fd-50bc71479510)
 
 ---
 
 ## 🌟 추가 기능: 메신저 & 알림 시스템
-
-매칭된 파트너와 실시간으로 소통할 수 있는 **1:1 메신저 기능**과 **알림 시스템**을 제공합니다.
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
   <img src="https://github.com/user-attachments/assets/6e839f9b-b5f3-4e1e-8b8f-e9f173f2a06a" width="300">
