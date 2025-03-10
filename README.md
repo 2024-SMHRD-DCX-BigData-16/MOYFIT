@@ -43,6 +43,9 @@ MOYFIT은 **카카오 API**를 활용한 거리 기반 매칭 시스템을 통�
 ### 📌 매칭 시스템
 - 거리 기반 운동 파트너 & 모임 매칭
 
+<img src="https://github.com/user-attachments/assets/c1b6e5a4-f4be-4cee-9dee-8caeb2ea4ddd" width="400")
+
+
 ### 📌 알림 시스템
 - 매칭 요청 & 수락 여부 실시간 알림
 - 매칭 상태 업데이트 즉시 확인
