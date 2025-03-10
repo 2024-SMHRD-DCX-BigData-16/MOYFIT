@@ -113,4 +113,4 @@ MOYFIT은 **카카오 API**를 활용한 거리 기반 매칭 시스템을 통�
 ---
 
 ## 📎 GitHub Repository
-🔗 **[MOYFIT 프로젝트 저장소](https://github.com/your-repository-url)** _(추후 추가)_
+🔗 **[MOYFIT 프로젝트 저장소](https://github.com/2024-SMHRD-DCX-BigData-16/MOYFIT.git)**
