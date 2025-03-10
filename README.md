@@ -11,7 +11,7 @@ MOYFIT은 **카카오 API**를 활용한 거리 기반 매칭 시스템을 통�
 - **게시글 작성 및 후기 공유**로 운동 정보를 교류
 - **1:1 메신저 기능**으로 원활한 소통 가능
 
-<img src="https://github.com/user-attachments/assets/a4d262c1-9c51-45c2-9e9e-e97ab956a9e0" width="300px">
+<img src="https://github.com/user-attachments/assets/a4d262c1-9c51-45c2-9e9e-e97ab956a9e0" align="left" width="300px">
 
 
 > **🎯 운동을 더 즐겁고, 더 효율적으로!**  
