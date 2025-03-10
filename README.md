@@ -117,19 +117,27 @@ MOYFIT은 **카카오 API**를 활용한 거리 기반 매칭 시스템을 통�
 ---
 
 ## 🌟 파트너 매칭 페이지
-<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
-  <img src="https://github.com/user-attachments/assets/308ca79b-b153-40e5-ba08-429671abeedf" width="300">
-</div>
+
 
 ---
 
-## 🌟 파트너 상세 페이지 - 메시지 및 알림 (요청 & 수락)
+## 🌟 파트너 상세 페이지 및 알림 (요청 & 수락)
 
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
   <img src="https://github.com/user-attachments/assets/8f5ad128-94fb-434a-90e8-8f79f5caf09d" width="300">
   <img src="https://github.com/user-attachments/assets/6e839f9b-b5f3-4e1e-8b8f-e9f173f2a06a" width="300">
   <img src="https://github.com/user-attachments/assets/21bd5598-aaec-413e-8b4b-361dc6149fa2" width="300">
+</div>
+
+---
+
+## 🌟 메시지
+
+
+<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+  <img src="https://github.com/user-attachments/assets/e354f5c9-751f-4ef1-b5fd-50bc71479510" width="300">
+  <img src="https://github.com/user-attachments/assets/21bd5598-aaec-413e-8b4b-361dc6149fa2" width="300">  
 </div>
 
 ---
@@ -143,9 +151,11 @@ MOYFIT은 **카카오 API**를 활용한 거리 기반 매칭 시스템을 통�
 
 ---
 
-## 커뮤니티 페이지
+## 🌟커뮤니티 페이지
+<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+  <img src="https://github.com/user-attachments/assets/308ca79b-b153-40e5-ba08-429671abeedf" width="300">
+</div>
 
-![Matching Request](https://github.com/user-attachments/assets/e354f5c9-751f-4ef1-b5fd-50bc71479510)
 
 ---
 
