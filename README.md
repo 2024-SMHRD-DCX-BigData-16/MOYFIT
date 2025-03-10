@@ -111,15 +111,15 @@ MOYFIT은 **카카오 API**를 활용한 거리 기반 매칭 시스템을 통�
 ---
 
 ## 홈페이지 소개
-
+### 메인페이지
 <img src="https://github.com/user-attachments/assets/73fedfd8-8797-499d-a941-274988f7a904" width="1000" style="max-width:100%">
 
 ---
-
+### 파트너 매칭 탭
 <img src="https://github.com/user-attachments/assets/97aba364-8527-4276-ba37-e63871f041da" width="1000" style="max-width:100%">
 
 ---
-
+### 파트너 상세정보                랭킹                  평점
 <img src="https://github.com/user-attachments/assets/8f5ad128-94fb-434a-90e8-8f79f5caf09d" width="300" align="left">
 <img src="https://github.com/user-attachments/assets/40a29317-4a2e-43c8-9370-97b8408459af" width="300" align="center">
 <img src="https://github.com/user-attachments/assets/89c65159-bc23-4a0c-8333-db88c8615797" width="300" align="right">
