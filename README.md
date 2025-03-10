@@ -120,12 +120,12 @@ MOYFIT은 **카카오 API**를 활용한 거리 기반 매칭 시스템을 통�
 
 ---
 <h3>파트너 상세페이지</h3> 
-<p align="center">
+<div align="center">
   <h3>랭킹</h3>
-</p>
-<p align="right">
+</div>
+<div align="right">
   <h3>평점</h3>
-</p>
+</div>
 <img src="https://github.com/user-attachments/assets/8f5ad128-94fb-434a-90e8-8f79f5caf09d" width="300" align="left">
 <img src="https://github.com/user-attachments/assets/40a29317-4a2e-43c8-9370-97b8408459af" width="300" align="center">
 <img src="https://github.com/user-attachments/assets/89c65159-bc23-4a0c-8333-db88c8615797" width="300" align="right">
