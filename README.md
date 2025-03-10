@@ -140,13 +140,13 @@ MOYFIT은 **카카오 API**를 활용한 거리 기반 매칭 시스템을 통�
 
 ---
 
-## 🌟 매칭 요청 & 수락 UI
+## 🌟 알림 - 매칭 요청 & 수락
 
 ![Matching Request](https://github.com/user-attachments/assets/e354f5c9-751f-4ef1-b5fd-50bc71479510)
 
 ---
 
-## 🌟 추가 기능: 메신저 & 알림 시스템
+## 🌟 메신저 & 알림 시스템
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
   <img src="https://github.com/user-attachments/assets/6e839f9b-b5f3-4e1e-8b8f-e9f173f2a06a" width="300">
